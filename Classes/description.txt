@@ -1,0 +1,36 @@
+Braaains!
+
+Bad news: you have been infected with the zombie virus... Good news: The virus have absolutely no effect on goats, but it can still be transmitted to humans :D
+
+[b]FERATURES[/b]
+- ZOMBIE GOAT: Every human you kill become a zombie.
+
+[b]CHARACTERISTICS[/b]
+- Humans killed by zombies also become zombies.
+- Zombies target and attack you when they see you.
+- Zombies walk around randomly when there is no player around.
+
+[b]EASTER EGGS[/b]
+- [spoiler]Zombies wont hit you if you are ragdolled, but they still follow you.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- There is a bit too much zombie sounds when a zombie is on you.
+- Zombie head and arms are not ragdolled when seen from far away.
+
+[b]FAQ[/b]
+[i]Before starting any of the following steps [b]close Goat Simulator[/b][/i].
+
+- How do I use this mod?
+[i]First hit the [+ Subscribe] button on this page to download the mod. After doing that Steam should start downloading the mod (you can see the progress at the bottom of your Steam window), wait for the download to complete before starting your game. In the main menu of the game, select Custom Game, then you will see a list of all the mutators installed on your computer. Click on the mutators you want in this list to add them to your goat.[/i]
+
+- The mod is installed but does nothing when I use it, what should I do?
+[i]Unsubscribe to the mod, Steam will update the game wait for the end of this update before doing the next steps. Open the file "C:\ Program Files (x86) \Steam \SteamApps \common \GoatSimulator \GoatGame \Config \GoatMod.ini" (or "GoatMod") with notepad and delete its content. Read the preview instructions if you want to reinstall the mod.[/i]
+
+- My game is crashing at startup, what do I do?
+[i]Try to follow [url=http://steamcommunity.com/sharedfiles/filedetails/?id=247411111]this guide[/url] and see if it fixed your problem. If not, I don't think I can do anything more sorry.[/i]
+
+[b]DEV NOTES[/b]
+[quote=About this mod] Another little mod that was really fun to code ^^ Creating the zombification effect took almost no time (used the particles of the Repulsive Goat, ragdolled some parts of the humans skeleton and replaced angry sounds by zombie sounds).
+Then there was the interesting part: Making sombies attack the player! Hopefully, the 1.1 update added a capture the flag mode to the NPC AIs so I just reused it to make zombies protect a virtual flag sticked to the zombie.
+The hardest point was the zombie random movement when there is no player to attack. For this part I had to mess a bit with "states programming" which is unusual for me but used a lot in unreal script. I lost a lot of hours trying to figure ou why the AI didn't want to enter my custom state, then I ended up calling the GoToState() every tick to force it to do what I wanted X)
+[/quote]
